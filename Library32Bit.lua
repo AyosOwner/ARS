@@ -1671,7 +1671,7 @@ do
           DisplayOrder = 0,
           Parent = game:GetService("CoreGui")
         })
-        ProtectInstance(self.window)
+        -- ProtectInstance(self.window)
         self.position = position
         self.size = size
         self.title = title
